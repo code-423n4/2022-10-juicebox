@@ -8,6 +8,11 @@
 - Ends October 23, 2022 20:00 UTC
 - The [Juicebox contracts](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) to be audited
 
+In scope:
+contracts/*
+!contracts/forge-test/**
+!contracts/scripts/**
+
 ## How to setup the project
 
 Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) and follow instructions in the readme.
