@@ -50,4 +50,6 @@ The NFTs from each tier can also be used for redemptions against the underlying 
 
 The collection can be used for on-chain governance. Votes can be solicited from all tiers, or only from specific tiers.
 
+## Deploy
 
+The deployer copies the data of a pre-existing cononical version of the 721 contracts, which can be either GlobalGovernance, TierGovernance, or no governance. This was done to keep the deployer contract size small enough to be deployable. 
