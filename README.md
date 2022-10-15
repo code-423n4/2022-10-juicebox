@@ -58,7 +58,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
-Commit: e9a862e7ed52217dfda03728f650dbc0c2aa758b
+Commit: 4ac8cb18f5873a4f59341719450be6a91c4fa8e1
 
 ## Motivation
 
