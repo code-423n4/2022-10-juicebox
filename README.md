@@ -12,7 +12,7 @@
 
 Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) and follow instructions in the readme.
 
-Commit: 4c05070e421736735029d1fdbc9b9b4ba8c10aa9
+Commit: e35ef20a9f34cf34a825291d7f2158d4e0abf305
 
 ## Motivation
 
