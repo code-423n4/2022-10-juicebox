@@ -6,13 +6,13 @@
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts October 18, 2022 20:00 UTC
 - Ends October 23, 2022 20:00 UTC
-- The [Juicebox contracts](https://github.com/jbx-protocol/juice-nft-rewards/tree/26b2148f0e58d0c53c94c1169c963c5e13b09837) to be audited
+- The [Juicebox contracts](https://github.com/jbx-protocol/juice-nft-rewards/tree/f9893b1497098241dd3a664956d8016ff0d0efd0) to be audited
 
 ## How to setup the project
 
-Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/26b2148f0e58d0c53c94c1169c963c5e13b09837) and follow instructions in the readme.
+Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/f9893b1497098241dd3a664956d8016ff0d0efd0) and follow instructions in the readme.
 
-Commit: 26b2148f0e58d0c53c94c1169c963c5e13b09837
+Commit: f9893b1497098241dd3a664956d8016ff0d0efd0
 
 ## Motivation
 
