@@ -63,7 +63,7 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 
 ## Contracts
 
-|File|SLOC|Description|
+|File|Description|
 |-|-|-|
 |[contracts/JBGlobalGovernance.sol]()| Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
 |[contracts/JBTieredGovernance]()| Same as Global Governance except delegation is done on a per tier basis|
