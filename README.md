@@ -76,3 +76,58 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 |[contracts/libraries/JBIpfsDecoder.sol]()| 89 |A library to store and read IPFS hashes as 32 bytes words|
 |[contracts/libraries/JBTiered721FundingCycleMetadataResolver.sol]()| 18 |A library to read funding cycle metadata in the NFT delegate context|
 |Total |3406||
+
+
+## Scope
+### Files in scope
+|File|[SLOC](#nowhere "(nSLOC, SLOC, Lines)")|[Coverage](#nowhere "(Lines hit / Total)")|
+|:-|:-:|:-:|
+|_Contracts (6)_|
+|[contracts/JB721GlobalGovernance.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JB721GlobalGovernance.sol)|[24](#nowhere "(nSLOC:13, SLOC:24, Lines:62)")|[100.00%](#nowhere "(Hit:3 / Total:3)")|
+|[contracts/JBTiered721DelegateDeployer.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JBTiered721DelegateDeployer.sol) [🖥](#nowhere "Uses Assembly") [🌀](#nowhere "create/create2")|[62](#nowhere "(nSLOC:59, SLOC:62, Lines:139)")|[93.33%](#nowhere "(Hit:14 / Total:15)")|
+|[contracts/JBTiered721DelegateProjectDeployer.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JBTiered721DelegateProjectDeployer.sol)|[121](#nowhere "(nSLOC:83, SLOC:121, Lines:257)")|[37.50%](#nowhere "(Hit:6 / Total:16)")|
+|[contracts/JB721TieredGovernance.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JB721TieredGovernance.sol) [Σ](#nowhere "Unchecked Blocks")|[135](#nowhere "(nSLOC:93, SLOC:135, Lines:329)")|[68.75%](#nowhere "(Hit:22 / Total:32)")|
+|[contracts/JBTiered721Delegate.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JBTiered721Delegate.sol) [Σ](#nowhere "Unchecked Blocks")|[328](#nowhere "(nSLOC:273, SLOC:328, Lines:796)")|[93.85%](#nowhere "(Hit:122 / Total:130)")|
+|[contracts/JBTiered721DelegateStore.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JBTiered721DelegateStore.sol) [🖥](#nowhere "Uses Assembly") [Σ](#nowhere "Unchecked Blocks")|[540](#nowhere "(nSLOC:465, SLOC:540, Lines:1303)")|[95.43%](#nowhere "(Hit:209 / Total:219)")|
+|_Abstracts (1)_|
+|[contracts/abstract/JB721Delegate.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/abstract/JB721Delegate.sol) [💰](#nowhere "Payable Functions") [Σ](#nowhere "Unchecked Blocks")|[146](#nowhere "(nSLOC:117, SLOC:146, Lines:337)")|[87.18%](#nowhere "(Hit:34 / Total:39)")|
+|_Libraries (3)_|
+|[contracts/libraries/JBTiered721FundingCycleMetadataResolver.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/libraries/JBTiered721FundingCycleMetadataResolver.sol)|[13](#nowhere "(nSLOC:13, SLOC:13, Lines:18)")|[66.67%](#nowhere "(Hit:2 / Total:3)")|
+|[contracts/libraries/JBBitmap.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/libraries/JBBitmap.sol)|[37](#nowhere "(nSLOC:25, SLOC:37, Lines:76)")|[0.00%](#nowhere "(Hit:0 / Total:9)")|
+|[contracts/libraries/JBIpfsDecoder.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/libraries/JBIpfsDecoder.sol)|[54](#nowhere "(nSLOC:50, SLOC:54, Lines:89)")|[100.00%](#nowhere "(Hit:30 / Total:30)")|
+|Total (over 10 files):| [1460](#nowhere "(nSLOC:1191, SLOC:1460, Lines:3406)")| [89.11%](#nowhere "Hit:442 / Total:496")|
+
+
+### All other source contracts (not in scope)
+|File|[SLOC](#nowhere "(nSLOC, SLOC, Lines)")|[Coverage](#nowhere "(Lines hit / Total)")|
+|:-|:-:|:-:|
+|_Contracts (1)_|
+|[contracts/abstract/ERC721.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/abstract/ERC721.sol) [🖥](#nowhere "Uses Assembly") [♻️](#nowhere "TryCatch Blocks")|[214](#nowhere "(nSLOC:158, SLOC:214, Lines:447)")|[55.00%](#nowhere "(Hit:33 / Total:60)")|
+|_Abstracts (1)_|
+|[contracts/abstract/Votes.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/abstract/Votes.sol)|[86](#nowhere "(nSLOC:73, SLOC:86, Lines:178)")|[80.00%](#nowhere "(Hit:20 / Total:25)")|
+|_Interfaces (6)_|
+|[contracts/interfaces/IJB721Delegate.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJB721Delegate.sol)|[13](#nowhere "(nSLOC:13, SLOC:13, Lines:23)")|-|
+|[contracts/interfaces/IJBTiered721DelegateDeployer.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJBTiered721DelegateDeployer.sol)|[15](#nowhere "(nSLOC:12, SLOC:15, Lines:19)")|-|
+|[contracts/interfaces/IJBTiered721DelegateProjectDeployer.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJBTiered721DelegateProjectDeployer.sol)|[28](#nowhere "(nSLOC:16, SLOC:28, Lines:35)")|-|
+|[contracts/interfaces/IJB721TieredGovernance.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJB721TieredGovernance.sol)|[39](#nowhere "(nSLOC:31, SLOC:39, Lines:51)")|-|
+|[contracts/interfaces/IJBTiered721Delegate.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJBTiered721Delegate.sol)|[58](#nowhere "(nSLOC:42, SLOC:58, Lines:80)")|-|
+|[contracts/interfaces/IJBTiered721DelegateStore.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/interfaces/IJBTiered721DelegateStore.sol)|[89](#nowhere "(nSLOC:47, SLOC:89, Lines:131)")|-|
+|_Structs (14)_|
+|[contracts/structs/JBBitmapWord.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBBitmapWord.sol)|[5](#nowhere "(nSLOC:5, SLOC:5, Lines:11)")|-|
+|[contracts/structs/JBTiered721MintForTiersData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBTiered721MintForTiersData.sol)|[5](#nowhere "(nSLOC:5, SLOC:5, Lines:11)")|-|
+|[contracts/structs/JBTiered721MintReservesForTiersData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBTiered721MintReservesForTiersData.sol)|[5](#nowhere "(nSLOC:5, SLOC:5, Lines:11)")|-|
+|[contracts/structs/JBTiered721SetTierDelegatesData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBTiered721SetTierDelegatesData.sol)|[5](#nowhere "(nSLOC:5, SLOC:5, Lines:11)")|-|
+|[contracts/structs/JBTiered721FundingCycleMetadata.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBTiered721FundingCycleMetadata.sol)|[6](#nowhere "(nSLOC:6, SLOC:6, Lines:13)")|-|
+|[contracts/structs/JBTiered721Flags.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBTiered721Flags.sol)|[7](#nowhere "(nSLOC:7, SLOC:7, Lines:15)")|-|
+|[contracts/structs/JB721PricingParams.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JB721PricingParams.sol)|[9](#nowhere "(nSLOC:9, SLOC:9, Lines:18)")|-|
+|[contracts/structs/JBStored721Tier.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBStored721Tier.sol)|[10](#nowhere "(nSLOC:10, SLOC:10, Lines:21)")|-|
+|[contracts/structs/JB721TierParams.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JB721TierParams.sol)|[12](#nowhere "(nSLOC:12, SLOC:12, Lines:25)")|-|
+|[contracts/structs/JB721Tier.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JB721Tier.sol)|[13](#nowhere "(nSLOC:13, SLOC:13, Lines:27)")|-|
+|[contracts/structs/JBReconfigureFundingCyclesData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBReconfigureFundingCyclesData.sol)|[13](#nowhere "(nSLOC:13, SLOC:13, Lines:25)")|-|
+|[contracts/structs/JBLaunchFundingCyclesData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBLaunchFundingCyclesData.sol)|[15](#nowhere "(nSLOC:15, SLOC:15, Lines:27)")|-|
+|[contracts/structs/JBLaunchProjectData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBLaunchProjectData.sol)|[17](#nowhere "(nSLOC:17, SLOC:17, Lines:30)")|-|
+|[contracts/structs/JBDeployTiered721DelegateData.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/structs/JBDeployTiered721DelegateData.sol)|[23](#nowhere "(nSLOC:23, SLOC:23, Lines:41)")|-|
+|_Other (1)_|
+|[contracts/enums/JB721GovernanceType.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/enums/JB721GovernanceType.sol)|[6](#nowhere "(nSLOC:6, SLOC:6, Lines:8)")|-|
+|Total (over 23 files):| [693](#nowhere "(nSLOC:543, SLOC:693, Lines:1258)")| [62.35%](#nowhere "Hit:53 / Total:85")|
+
