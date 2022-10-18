@@ -8,11 +8,6 @@
 - Ends October 23, 2022 20:00 UTC
 - The [Juicebox contracts](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) to be audited
 
-In scope:
-contracts/*
-!contracts/forge-test/**
-!contracts/scripts/**
-
 ## How to setup the project
 
 Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) and follow instructions in the readme.
@@ -42,13 +37,25 @@ Tiers can also be removed, so long as they are not locked.
 
 An incoming payment can specify any number of tiers to mint as part of the payment, so long as the tier's prices are contained within the paid amount. If specific tiers aren't specified, the best available tier will be minted, unless a flag is specifically sent along with the payment telling the contract to not mint.
 
+If a tier's contribution floor is specified in a currency different to the incoming payment, a `JBPrices` contract will by used for trying to normalize the values.
+
 If a payment received does not meet a minting threshold or is in excess of the minted tiers, the balance is stored as a credit which will be added to future payments and applied to mints at that time. A flag can also be passed to avoid accepting payments that aren't applied to mints in full. 
 
 The contract's owner can mint on demand from tier's that have been pre-programmed to allow manual token minting.
 
 The NFTs from each tier can also be used for redemptions against the underlying Juicebox treasury. The rate of redemptions corresponds to the price floor of the tier being redeemed, compared to the total price floors of all minted NFTs.
 
-The collection can be used for on-chain governance. Votes can be solicited from all tiers, or only from specific tiers.
+The NFTs can serve as utilities for on-chain governance if specified during the collection's deployment. Voting delegation can be made on a per-tier basis, or on a global basis.
+
+## Architecture
+
+An understanding of how the Juicebox protocol's pay and redeem functionality works is an important prereq to understanding how this repo's contracts work and attach themselves to Juicebox's regular operating behavior. This contract specifically makes use of the DataSource+Delegate pattern. See https://info.juicebox.money/dev/.
+
+In order to use NFT rewards, a Juicebox project should launched from `JBTiered721DelegateProjectDeployer` instead of a `JBController`. This Deployer will deploy a `JBTiered721Delegate` (through it's reference to a `JBTiered721DelegateDeployer`) and attach it to the first funding cycle of the newly launched project as a DataSource and Delegate. Funding cycle reconfigurations can also be done using the `JBTiered721DelegateProjectDeployer`, though it will need to have Operator permissions from the project's owner.
+
+The abstract `JB721Delegate` implementation of the ERC721 Juicebox DataSource+Delegate extension can be used for any distribution mechanic. This repo includes one implementation – the `JBTiered721Delegate` – as well as two extensions that offer on-chain governance capabilities to the distributed tokens. 
+
+All `JBTiered721Delegate`'s use a generic `JBTiered721DelegateStore` to store it's data.
 
 ## Deploy
 
