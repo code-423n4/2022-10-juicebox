@@ -64,7 +64,7 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 ## Contracts
 
 |File|Description|
-|-|-|-|
+|-|-|
 |[contracts/JBGlobalGovernance.sol]()| Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
 |[contracts/JBTieredGovernance]()| Same as Global Governance except delegation is done on a per tier basis|
 |[contracts/JBTiered721Delegate.sol]()| The tiered NFT delegate core logic, without the governance|
@@ -80,7 +80,7 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 ## Scope
 ### Files in scope
 |File|[SLOC](#nowhere "(nSLOC, SLOC, Lines)")|[Coverage](#nowhere "(Lines hit / Total)")|
-|:-|:-:|
+|:-|:-:|:-:|
 |_Contracts (6)_|
 |[contracts/JB721GlobalGovernance.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JB721GlobalGovernance.sol)|[24](#nowhere "(nSLOC:13, SLOC:24, Lines:62)")|[100.00%](#nowhere "(Hit:3 / Total:3)")|
 |[contracts/JBTiered721DelegateDeployer.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/JBTiered721DelegateDeployer.sol) [🖥](#nowhere "Uses Assembly") [🌀](#nowhere "create/create2")|[62](#nowhere "(nSLOC:59, SLOC:62, Lines:139)")|[93.33%](#nowhere "(Hit:14 / Total:15)")|
