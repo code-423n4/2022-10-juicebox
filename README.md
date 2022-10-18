@@ -10,7 +10,7 @@
 
 ## How to setup the project
 
-Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/4ac8cb18f5873a4f59341719450be6a91c4fa8e1) and follow instructions in the readme.
+Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/1e8f244bf1c0e44fbbe4d691aaef437deecbd0ad) and follow instructions in the readme.
 
 Commit: 1e8f244bf1c0e44fbbe4d691aaef437deecbd0ad
 
