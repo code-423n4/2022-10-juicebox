@@ -130,3 +130,6 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 |[contracts/enums/JB721GovernanceType.sol](https://github.com/jbx-protocol/juice-nft-rewards/blob/main/contracts/enums/JB721GovernanceType.sol)|[6](#nowhere "(nSLOC:6, SLOC:6, Lines:8)")|-|
 |Total (over 23 files):| [693](#nowhere "(nSLOC:543, SLOC:693, Lines:1258)")| [62.35%](#nowhere "Hit:53 / Total:85")|
 
+## API Docs
+
+https://info.juicebox.money/dev/api/contracts/or-delegates/or-abstract/jb721delegate/
