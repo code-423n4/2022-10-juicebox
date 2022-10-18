@@ -10,7 +10,7 @@
 
 ## How to setup the project
 
-Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/1e8f244bf1c0e44fbbe4d691aaef437deecbd0ad) and follow instructions in the readme.
+Go to the [Juicebox Contribution NFT Reward Mechanism](https://github.com/jbx-protocol/juice-nft-rewards/tree/26b2148f0e58d0c53c94c1169c963c5e13b09837) and follow instructions in the readme.
 
 Commit: 26b2148f0e58d0c53c94c1169c963c5e13b09837
 
@@ -161,3 +161,7 @@ Slither does not currently work on the repo. If you find a workaround, please sh
 - Is it multi-chain?:   false
 - Does it use a side-chain?:   false
 ```
+
+## API Docs
+
+API docs for the NFT Rewards system are evolving. See https://info.juicebox.money/dev/api/contracts/or-delegates/or-abstract/jb721delegate/, as well as the build/ and learn/ sections.
