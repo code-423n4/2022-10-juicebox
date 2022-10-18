@@ -134,6 +134,30 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 
 https://info.juicebox.money/dev/api/contracts/or-delegates/or-abstract/jb721delegate/
 
-## Notes
+## Slither
 
-Slither does not currently work on the repo. If you find a workaround, please share in the discord.
+Slither does not currently work on the repo. If you find a workaround, please share in the Discord.
+
+## Scoping Details 
+```
+- If you have a public code repo, please share it here:   https://github.com/jbx-protocol/juice-nft-rewards 
+- How many contracts are in scope?:   5
+- Total SLoC for these contracts?:   ~1460
+- How many external imports are there?:   1
+- How many separate interfaces and struct definitions are there for the contracts within scope?:   5 interfaces, 11 structs
+- Does most of your code generally use composition or inheritance?:   50/50
+- How many external calls?:   0
+- What is the overall line coverage percentage provided by your tests?:   100%
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:   true
+- Please describe required context:   pay dataSource/delegate, redeem dataSource/delegate from the core Juicebox protocol
+- Does it use an oracle?:   false
+- Does the token conform to the ERC20 standard?:   no
+- Are there any novel or unique curve logic or mathematical models?:   no
+- Does it use a timelock function?:   no
+- Is it an NFT?:   yeah
+- Does it have an AMM?:   no
+- Is it a fork of a popular project?:   false
+- Does it use rollups?:   false
+- Is it multi-chain?:   false
+- Does it use a side-chain?:   false
+```
