@@ -65,17 +65,16 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 
 |File|SLOC|Description|
 |-|-|-|
-|[contracts/JBGlobalGovernance.sol]()| 62 |Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
-|[contracts/JBTieredGovernance]()| 329 |Same as Global Governance except delegation is done on a per tier basis|
-|[contracts/JBTiered721Delegate.sol]()| 796 |The tiered NFT delegate core logic, without the governance|
-|[contracts/JBTiered721DelegateDeployer.sol]()| 139 |The tiered NFT delegate cloner/deployer, allowing to pick a governance style|
-|[contracts/JBTiered721DelegateProjectDeployer.sol]()| 257 |Deploy a delegate and create a new Juicebox Project using it|
-|[contracts/JBTiered721DelegateStore.sol]()| 1303 |The state storing contract for tiered NFT delegates|
-|[contracts/abstract/JB721Delegate.sol]()| 337 |A NFT delegate, offering mint and burn NFT based on pay and redeem|
-|[contracts/libraries/JBBitmap.sol]()| 76 |A uint256 bitmap library, to handle removed tiers|
-|[contracts/libraries/JBIpfsDecoder.sol]()| 89 |A library to store and read IPFS hashes as 32 bytes words|
-|[contracts/libraries/JBTiered721FundingCycleMetadataResolver.sol]()| 18 |A library to read funding cycle metadata in the NFT delegate context|
-|Total |3406||
+|[contracts/JBGlobalGovernance.sol]()| Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
+|[contracts/JBTieredGovernance]()| Same as Global Governance except delegation is done on a per tier basis|
+|[contracts/JBTiered721Delegate.sol]()| The tiered NFT delegate core logic, without the governance|
+|[contracts/JBTiered721DelegateDeployer.sol]()| The tiered NFT delegate cloner/deployer, allowing to pick a governance style|
+|[contracts/JBTiered721DelegateProjectDeployer.sol]()| Deploy a delegate and create a new Juicebox Project using it|
+|[contracts/JBTiered721DelegateStore.sol]()| The state storing contract for tiered NFT delegates|
+|[contracts/abstract/JB721Delegate.sol]()| A NFT delegate, offering mint and burn NFT based on pay and redeem|
+|[contracts/libraries/JBBitmap.sol]()| A uint256 bitmap library, to handle removed tiers|
+|[contracts/libraries/JBIpfsDecoder.sol]()| A library to store and read IPFS hashes as 32 bytes words|
+|[contracts/libraries/JBTiered721FundingCycleMetadataResolver.sol]()| A library to read funding cycle metadata in the NFT delegate context|
 
 
 ## Scope
