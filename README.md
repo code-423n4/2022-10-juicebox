@@ -65,8 +65,8 @@ The deployer copies the data of a pre-existing cononical version of the 721 cont
 
 |File|Description|
 |-|-|
-|contracts/JBGlobalGovernance.sol| Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
-|contracts/JBTieredGovernance| Same as Global Governance except delegation is done on a per tier basis|
+|contracts/JB721GlobalGovernance.sol| Each NFT can be used for on chain governance, with votes delegatable globally across all tiers|
+|contracts/JB721TieredGovernance.sol| Same as Global Governance except delegation is done on a per tier basis|
 |contracts/JBTiered721Delegate.sol| The tiered NFT delegate core logic, without the governance|
 |contracts/JBTiered721DelegateDeployer.sol| The tiered NFT delegate cloner/deployer, allowing to pick a governance style|
 |contracts/JBTiered721DelegateProjectDeployer.sol| Deploy a delegate and create a new Juicebox Project using it|
