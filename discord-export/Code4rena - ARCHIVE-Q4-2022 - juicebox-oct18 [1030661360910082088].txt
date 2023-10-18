@@ -1,0 +1,648 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / juicebox-oct18
+==============================================================
+
+[10/15/2022 02:04] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $50K USDC **Juicebox** contest!
+
+📆 Contest opens Tuesday, 18 October 2022 20:00 (20:00 UTC) and runs through Sunday, 23 October 2022 20:00 (20:00 UTC) (5 days).
+
+Please give a warm welcome back to the Juicebox team, particularly @nicholas, @jango , @twodam , @0xBA5ED and @DrGorilla.eth who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-10-juicebox-contest
+
+{Embed}
+https://code4rena.com/contests/2022-10-juicebox-contest
+Code4rena Juicebox contest
+$50,000 USDC
+18 October 2022—23 October 2022
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+👋 (5) C4Keycap 🚀 
+
+[10/15/2022 02:04] itsmetechjay
+Pinned a message.
+
+
+[10/15/2022 08:02] Franfran#5067
+hello again sirs
+
+{Reactions}
+FrenWave (3) 
+
+[10/17/2022 14:37] jango420
+hey Franfran!
+
+{Reactions}
+goose (2) 
+
+[10/17/2022 21:15] koolexc
+Hey 👋🏻
+
+
+[10/18/2022 13:51] jango420
+GM!
+
+{Reactions}
+👋 (2) 
+
+[10/18/2022 13:51] jango420
+we're wrapping up some final lil details.
+
+{Reactions}
+🙌 
+
+[10/18/2022 13:51] jango420
+cant' wait to get the show on the road.
+
+{Reactions}
+🎉 🧃 
+
+[10/18/2022 13:52] jango420
+Hoping to see several folks here who helped us review the core contracts these past months. We'll be reviewing an NFT Rewards Pay/Redeem delegate this week that plugs right into the core mechanism .
+
+{Reactions}
+👍 (2) 
+
+[10/18/2022 19:57] jango420
+just about time to get that bread y'all
+
+
+[10/18/2022 19:58] jango420
+:Bread:
+
+
+[10/18/2022 19:58] jango420
+here to help along the way. thanks in advance for your work!
+
+{Reactions}
+💯 
+
+[10/18/2022 20:02] nnnnicholas
+If you have questions, please message  @jango,  @DrGorilla.eth, or @0xBA5ED
+
+{Reactions}
+yes 
+
+[10/18/2022 20:02] nnnnicholas
+@twodam and i are also around but those are the protocol experts ^^
+
+
+[10/18/2022 20:03] nnnnicholas
+you're also welcome to come hang out in our discord, where all dev work is public, during or after the contest :Heartemoji: http://discord.gg/juicebox
+
+
+[10/18/2022 20:05] jango420
+also: we'll be stitching together dev docs for the NFT Rewards mechanism this week at info.juicebox.money/dev. ill forward links this way as progress is published.
+
+
+[10/18/2022 20:09] ladboy233
+Hello!
+
+
+[10/18/2022 20:10] ladboy233
+Yeah I learned about Juicebox from People and constitutionDAO. time flies. It was a year ago.
+
+
+[10/18/2022 20:11] trustminimised
+https://github.com/jbx-protocol/juice-nft-rewards
+Is this the correct repo? The repo link in the contest page just leads to 
+https://github.com/code-423n4/2022-10-juicebox
+which is empty pretty much
+
+{Embed}
+https://github.com/code-423n4/2022-10-juicebox
+GitHub - code-423n4/2022-10-juicebox
+Contribute to code-423n4/2022-10-juicebox development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/2c22c134-5ab2-4df5-8266-a1d7ea720ea1-94957
+
+
+[10/18/2022 20:11] jango420
+that's the one. @Jay | C4 any advice on better linkage?
+
+{Reactions}
+👍 (2) 
+
+[10/18/2022 20:13] trustminimised
+Also, obligatory "Yay Foundry!"
+
+{Reactions}
+100coverage 
+
+[10/18/2022 20:13] itsmetechjay
+Under "How to Set up the Project", there is a link to a specific commit hash in the Juicebox repo: https://github.com/code-423n4/2022-10-juicebox#how-to-setup-the-project
+
+{Embed}
+https://github.com/code-423n4/2022-10-juicebox
+GitHub - code-423n4/2022-10-juicebox
+Contribute to code-423n4/2022-10-juicebox development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/2c22c134-5ab2-4df5-8266-a1d7ea720ea1-94957
+
+
+[10/18/2022 20:14] trustminimised
+Yeah, I see that now. Just odd, used to clicking "View Repo" and seeing code.
+
+
+[10/18/2022 20:14] itsmetechjay
+Do you all have a better spot in mind we can highlight that?
+
+
+[10/18/2022 20:14] itsmetechjay
+Yep in some cases, we do have sponsors that link out to their own repos.  🙂
+
+
+[10/18/2022 20:14] trustminimised
+I'm very new so hadn't seen that yet. Now I know to look. Thanks!
+
+
+[10/18/2022 20:15] itsmetechjay
+Understood. Thank you 🙂
+
+
+[10/18/2022 20:27] thepicodes (pinned)
+**Automated Findings**
+
+C4udit: https://gist.github.com/Picodes/5347b0c077269d5c4ad19f706f7086b7
+Improved C4udit: https://gist.github.com/Picodes/a6afb0dd17b71b60c605ae54d4c291f8
+
+{Reactions}
+thankyou (4) 
+
+[10/18/2022 20:28] itsmetechjay
+Pinned a message.
+
+
+[10/18/2022 20:28] itsmetechjay
+@🐺wardens - please note that c4audit output has been posted above and added to pinned posts. These are considered **publicly known issues** and are **not eligible for awards.**
+
+{Reactions}
+C4Keycap (6) 
+
+[10/18/2022 20:30] czar102
+I think this contest is not on #✋rsvp, can you check that please? Would be a pity if someone didn't have a chance to plan their participation.
+
+{Reactions}
+thx 
+
+[10/18/2022 20:34] itsmetechjay
+We'll look into that and get it added. Thanks for flagging!
+
+{Reactions}
+C4Keycap (3) 
+
+[10/18/2022 21:16] jango420
+@DrGorilla.eth
+
+{Reactions}
+🍌 
+
+[10/18/2022 22:05] philogy
+@jango can I DM?
+
+
+[10/18/2022 22:05] jango420
+yes
+
+
+[10/18/2022 22:12] philogy
+Think you need to add me as a friend
+
+
+[10/19/2022 00:00] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/unknown-972BE.png
+
+
+[10/19/2022 00:01] ladboy233
+is this JB721GlobalGovernance.sol and JB721TieredGovernance.sol?
+
+{Reactions}
+thankyou 
+
+[10/19/2022 00:04] illilli000
+yes, the scoping table has the right files
+
+
+[10/19/2022 00:09] ladboy233
+Ok thanks.
+
+
+[10/19/2022 01:02] ladboy233
+```solidity
+function didPay(JBDidPayData calldata _data) external payable virtual override {
+```
+
+
+[10/19/2022 01:02] ladboy233
+```solidity
+  function didRedeem(JBDidRedeemData calldata _data) external payable virtual override {
+```
+
+
+[10/19/2022 01:02] ladboy233
+What are these two function doing?
+
+
+[10/19/2022 01:05] jayphbee
+hey guys, i can't see the full repo, what's wrong?
+
+
+[10/19/2022 01:05] jayphbee
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/unknown-07D75.png
+
+
+[10/19/2022 01:07] neko_nyaa
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/unknown-8FA8F.png
+
+
+[10/19/2022 01:08] jayphbee
+got it
+
+
+[10/19/2022 04:09] jango420
+see the protocol docs here: https://info.juicebox.money/dev/build/treasury-extensions/data-source, and here https://info.juicebox.money/dev/build/treasury-extensions/pay-delegate
+
+{Reactions}
+C4Keycap 
+
+[10/19/2022 04:10] jango420
+triggered by the protocol here (for pay) https://info.juicebox.money/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/-_pay
+
+
+[10/19/2022 04:10] jango420
+and here for redeem https://info.juicebox.money/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/-_redeemtokensof
+
+
+[10/19/2022 10:49] dinesh11g
+hi
+
+
+[10/19/2022 11:49] ladboy233
+thanks
+
+
+[10/19/2022 15:35] trust90
+Is there some test suite available ?
+
+
+[10/19/2022 15:42] ladboy233
+https://github.com/jbx-protocol/juice-nft-rewards/tree/f9893b1497098241dd3a664956d8016ff0d0efd0/contracts/forge-test
+
+{Embed}
+https://github.com/jbx-protocol/juice-nft-rewards/tree/f9893b1497098241dd3a664956d8016ff0d0efd0/contracts/forge-test
+juice-nft-rewards/contracts/forge-test at f9893b1497098241dd3a66495...
+Contribute to jbx-protocol/juice-nft-rewards development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/juice-nft-rewards-BE716
+
+
+[10/19/2022 15:42] ladboy233
+forge test -vv
+
+
+[10/19/2022 15:43] ladboy233
+or forge test -vv --match xxx
+
+
+[10/19/2022 15:43] ladboy233
+works for me after installing the dependency.
+
+
+[10/19/2022 15:50] jango420
+gm everyone! here to help if you need.
+
+{Reactions}
+💚 
+
+[10/19/2022 16:55] koolexc
+Gm gm
+
+
+[10/19/2022 18:42] ladboy233
+ok
+
+
+[10/19/2022 18:42] ladboy233
+lol
+
+
+[10/19/2022 18:42] ladboy233
+I thought
+
+
+[10/19/2022 18:44] ladboy233
+JBTiered721Delegate#initialize can be called several times,
+
+
+[10/19/2022 18:44] ladboy233
+but
+
+
+[10/19/2022 18:44] ladboy233
+```solidity
+  // Make the original un-initializable.
+    require(address(this) != codeOrigin);
+    // Stop re-initialization.
+    require(address(store) == address(0));
+```
+
+
+[10/19/2022 18:44] ladboy233
+guard against it.
+
+
+[10/19/2022 20:44] trustminimised
+@jango Mind if I ask you a question privately?
+
+
+[10/19/2022 20:45] jango420
+sure
+
+
+[10/20/2022 02:31] jango420
+Gn!
+
+
+[10/20/2022 03:05] ladboy233
+@member reservedRate The number of minted tokens needed in the tier to allow for minting another reserved token.
+
+
+[10/20/2022 03:05] ladboy233
+what does this mean?
+
+
+[10/20/2022 11:51] jango420
+With a reservedRate of 10, one NFT can be minted in the tier to a special beneficiary address for each 10 minted organically.
+
+
+[10/20/2022 11:51] jango420
+I.e Nouns has a reserved rate of 9 since each 10th noun is reserved.
+
+
+[10/20/2022 11:54] ladboy233
+Oh that is what it means.
+
+
+[10/20/2022 11:55] ladboy233
+I thought it means 10 NFT reserved for the team.
+
+
+[10/20/2022 11:55] ladboy233
+Thanks!
+
+
+[10/20/2022 14:34] jango420
+gm! thanks for all the DMs with questions. keep them coming! feel free to also loop in @DrGorilla.eth and @0xBA5ED to the messages so we can get to them together
+
+{Reactions}
+👆 
+
+[10/20/2022 15:34] drgorilla.eth
+Yay, do not hesitate to create a group DM with the 3 of us, more folks = more brain juice!
+
+{Reactions}
+🔥 (2) 💯 (2) 
+
+[10/20/2022 16:03] nnnnicholas
+lets get this banana:Bread:
+
+
+[10/21/2022 13:26] trust90
+Any of the juicebox folks available for DM?
+
+
+[10/21/2022 16:07] jango420
+gm!
+
+
+[10/22/2022 14:53] jango420
+Gm!
+
+
+[10/22/2022 15:12] bernd_42
+Hm 🫡
+
+{Reactions}
+🔆 
+
+[10/22/2022 21:11] drgorilla.eth
+https://tenor.com/view/lukeafk-hacking-hacker-man-omegle-troll-gif-26094720
+
+{Embed}
+https://tenor.com/view/lukeafk-hacking-hacker-man-omegle-troll-gif-26094720
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/lukeafk-hacking-C29D5.png
+
+
+[10/22/2022 21:11] drgorilla.eth
+How is it going, dear wardens?
+
+
+[10/22/2022 22:32] ladboy233
+hahaha nice sticker
+
+
+[10/23/2022 19:54] trust90
+Great code guys, was fun to audit
+
+{Reactions}
+🔥 
+
+[10/23/2022 20:00] jango420
+:Heartemoji:
+
+
+[10/23/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The** Juicebox **contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+4739_Skeletor 
+
+[10/23/2022 20:06] jango420
+thanks friends
+
+
+[10/23/2022 20:06] jango420
+excited to leverage this nft rewards extension to fund future c4a contests :]
+
+
+[10/23/2022 20:11] horsefacts
+I didn't have as much time as I hoped for this one, but wanted to pass on one little thing. There are a few places in the tests where you're converting strings to test addresses, like:
+
+```
+address _user = address(bytes20(keccak256('user')));
+```
+
+There's a helper that was recently added to  `forge-std/Test` that does exactly this, plus tags the address so that it will show up labeled in traces:
+
+```
+address _user = makeAddr('user');
+```
+
+gg everyone, I'm looking forward to this feature!
+
+{Reactions}
+flashy (7) 
+
+[10/24/2022 12:52] drgorilla.eth
+I gave a first pass on findings, thank you all, valid or not, all issue opened makes us think twice about some of the logic (extra kudos for the Forge PoC that I'll pasta now as additional safety guard:)
+
+
+[10/24/2022 12:53] drgorilla.eth
++ sorry for the test suite which is a bit of a mess (started as a small unit test of a single contract, then has been growing into this monster that I can't fight anymore 🧌 )
+
+{Reactions}
+❤️ (9) 
+
+[10/24/2022 12:54] drgorilla.eth
+https://tenor.com/view/bud-abbot-and-lou-costello-gif-5561650
+
+{Embed}
+https://tenor.com/view/bud-abbot-and-lou-costello-gif-5561650
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/bud-abbot-A935E.png
+
+
+[11/23/2022 21:50] ladboy233
+🧐
+
+
+[11/28/2022 14:45] ladboy233
+👀
+
+
+[11/28/2022 14:47] shawn_xu
+👀
+
+{Reactions}
+👀 (3) 
+
+[12/05/2022 20:06] xyzbtchunt
+Any update?
+
+
+[12/06/2022 22:37] ch0bu
+https://github.com/code-423n4/code423n4.com/pull/5839/commits/2d6782335172000561ca274c7cab3c21b9a4c0ba
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/5839/commits/2d6782335172000561ca274c7cab3c21b9a4c0ba
+Add contest results by CloudEllie · Pull Request #5839 · code-423n4...
+Code4rena - ARCHIVE-Q4-2022 - juicebox-oct18 [1030661360910082088].txt_Files/84729667-C9F7E
+
+{Reactions}
+👀 
+
+[12/06/2022 22:58] itsmetechjay
+🤑 🎉 Awards for **Juicebox**:
+
+$13,381.25 USDC » @Trust 
+$9,741.41 USDC » @0x52 
+$3,825.06 USDC » @Roman 
+$3,526.77 USDC » @Bernd 
+$3,498.68 USDC » @minhquanym 
+$2,739.97 USDC » @0x1f8b 
+$1,843.10 USDC » @Jeiwan 
+$1,811.08 USDC » @cccz 
+$1,299.34 USDC » @brgltd 
+$1,211.63 USDC » @0xladboy | Sparkware 
+$1,070.18 USDC » @yixxas 
+$887.73 USDC » @code-cipher 
+$438.81 USDC » @anon 
+$400.26 USDC » @trustminimised 
+$372.93 USDC » @carlitox477 
+$372.93 USDC » @ReyAdmirado 
+$372.93 USDC » @0xSmartContract 
+$346.96 USDC » @seyni 
+$346.96 USDC » @hansfriese 
+$346.96 USDC » V_B (@Barichek, @Vlad B | zkSync)
+$346.96 USDC » @joestakey 
+$64.51 USDC » @chaduke 
+$64.51 USDC » @ch0bu 
+$64.51 USDC » @LéoS 
+$64.51 USDC » @RaymondFam 
+$64.51 USDC » @mcwildy 
+$64.51 USDC » @lukris02 
+$64.51 USDC » @Diana 
+$64.51 USDC » @cryptostellar5 
+$64.51 USDC » @__141345__ 
+$64.51 USDC » @bharg4v 
+$38.55 USDC » @csanuragjain 
+$38.55 USDC » @Rolezn 
+$38.55 USDC » @cloudjunky 
+$38.55 USDC » BClabs (@nalus, @Reptilia)
+$38.55 USDC » @fatherOfBlocks 
+$38.55 USDC » @RedOneN 
+$38.55 USDC » @RaoulSchaffranek 
+$38.55 USDC » @slowmoses 
+$38.55 USDC » @karanctf 
+$38.55 USDC » @0xNazgul 
+$38.55 USDC » @Ignacio 
+$38.55 USDC » @EricTee 
+$38.55 USDC » @tnevler 
+$38.55 USDC » @ret2basic.eth 
+$38.55 USDC » @a12jmx 
+$38.55 USDC » @delfin454000 
+$38.55 USDC » @svskaushik 
+$38.55 USDC » @peanuts 
+$38.55 USDC » @d3e4 
+$38.55 USDC » @minhtrng 
+$38.55 USDC » @SaharAP 
+$25.96 USDC » @martin11 
+$25.96 USDC » @gogo 
+$25.96 USDC » @Bnke 
+$25.96 USDC » @0x5rings 
+$25.96 USDC » @emrekocak 
+$25.96 USDC » @DimSon 
+$25.96 USDC » @Awesome 
+$25.96 USDC » @Saintcode_ 
+$25.96 USDC » @JrNet 
+$25.96 USDC » Shinchan (@Sm4rty, @Prasant Gupta, & @Rohan)
+$25.96 USDC » @sakman 
+$25.96 USDC » @Kiki 
+$25.96 USDC » @zishansami 
+$25.96 USDC » @JC
+
+🏁 Findings summary
+---------------------------
+High risk findings: 12 total, 5 unique
+Med risk findings: 11 total, 8 unique
+Gas findings: 34
+QA findings: 47
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸 
+
+***Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.***
+
+{Reactions}
+🎉 (10) 
+
+[12/07/2022 09:08] codingnamekiki
+Oh 25$, time to spoil myself a little.
+
+{Reactions}
+🎉 (6) chefskiss 
+
+[12/08/2022 03:56] itsmetechjay
+We discovered after further review that we missed 2 valid reports, so we have updated the leaderboard accordingly. All payouts will match what was posted above, but the following wardens will receive an additional payout of $38.55 USDC: 
+@yixxas 
+@cryptphi
+
+{Reactions}
+🎉 (3) 
+
+==============================================================
+Exported 103 message(s)
+==============================================================
